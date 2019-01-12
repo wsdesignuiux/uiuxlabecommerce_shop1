@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="248.2dp"
+            android:background="@drawable/combo_img"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/jaket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfns_display"
+                android:gravity="center"
+                android:text="Jackets"
+                android:textColor="@color/white"
+                android:textSize="13.4sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jaket"
+                android:layout_marginTop="2.2dp"
+                android:fontFamily="@font/arial_mt"
+                android:gravity="center"
+                android:letterSpacing="0.6"
+                android:text="150 ITEMS"
+                android:textColor="@color/white"
+                android:textSize="7.7sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.8dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="23dp"
+            android:fontFamily="@font/sfns_display"
+            android:text="Cruise through the fashion world with when you adorn this pair."
+            android:textColor="#6e6e70"
+            android:textSize="17.3sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="14.9dp"
+            android:layout_marginRight="9.4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfns_display"
+                android:text="Victoria Matthews"
+                android:textColor="#212121"
+                android:textSize="10.6sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial_mt"
+                android:text="17:19 PM, TUESDAY"
+                android:textColor="#212121"
+                android:textSize="7.7sp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="17.6dp"
+            android:background="#338d8d8d" />
+
+        <LinearLayout
+            android:background="#fcfcfc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.9dp"
+            android:layout_marginTop="15.8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfns_display"
+                android:text="COLOR, SIZE"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfns_display"
+                android:text="View All"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="17.8dp"
+                android:paddingRight="15.4dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10.6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:src="@drawable/ovel_gray" />
+
+            <ImageView
+                android:id="@+id/dot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:src="@drawable/ovel_gray" />
+
+            <ImageView
+                android:id="@+id/dot3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:src="@drawable/ovel_dark_gray" />
+
+            <ImageView
+                android:id="@+id/dot4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:src="@drawable/ovel_gray" />
+
+            <ImageView
+                android:id="@+id/dot5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:src="@drawable/ovel_dark_gray"/>
+
+            <ImageView
+                android:id="@+id/dot6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:paddingBottom="9dp"
+                android:layout_marginRight="59dp"
+                android:src="@drawable/ovel_dark_gray" />
+
+
+            <LinearLayout
+                android:id="@+id/sl_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/sl_view_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/sl_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/arial_mt"
+                        android:paddingBottom="4.8dp"
+                        android:paddingTop="4.8dp"
+                        android:text="SL"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/sl_view_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/x_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/x_view_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/x_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/arial_mt"
+                        android:paddingBottom="6.1dp"
+                        android:paddingTop="4.8dp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
+
+                    <View
+                        android:id="@+id/x_view_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xl_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/xl_view_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/xl_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arial_mt"
+                        android:paddingBottom="6.1dp"
+                        android:paddingTop="4.8dp"
+                        android:text="XL"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
+
+                    <View
+                        android:id="@+id/xl_view_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xs_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/xs_view_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/xs_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arial_mt"
+                        android:paddingBottom="6.1dp"
+                        android:paddingTop="4.8dp"
+                        android:text="XS"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
+
+                    <View
+                        android:id="@+id/xs_view_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ls_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/ls_view_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/ls_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arial_mt"
+                        android:paddingBottom="6.1dp"
+                        android:paddingTop="4.8dp"
+                        android:text="LS"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
+
+                    <View
+                        android:id="@+id/ls_view_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.9dp"
+                        android:background="@color/blue"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:paddingBottom="15.1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfns_display"
+                android:text="YOU MAY ALSO LIKE"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfns_display"
+                android:text="View All"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="17.8dp"
+                android:paddingRight="15.4dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#338d8d8d" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_activity_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingLeft="15.4dp"
+            android:paddingTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.4dp"
+            android:layout_marginTop="29.6dp"
+            android:lineSpacingExtra="8dp"
+            android:fontFamily="@font/sfns_display"
+            android:text="Let the vivacious diva in you get a new breath of life. wearing Truffle Collection boots in white colour. Designed to perfection, this pair guarantees comfort to your feet all throughout the day.  Flaunt this pair of boots with a floral blazer and narrow-fit jeans for an ideal look.\n\nStylish and comfortable, these boots from Lee Cooper are a must-have for modern men. A must-have in your footwear collection, these lace-ups will allow you to step out in style. Made from leather, these boots are durable. "
+            android:textColor="#6e6e70"
+            android:textSize="10.6sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="60dp"
+            android:background="#338d8d8d" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.9dp"
+            android:layout_marginTop="16.3dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfns_display"
+                android:text="COMMENTS, 34"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfns_display"
+                android:text="Add"
+                android:textColor="@color/black"
+                android:textSize="10.6sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="17.8dp"
+                android:paddingRight="15.4dp"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="17.1dp"
+            android:background="#338d8d8d" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyler_comment_activity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30.7dp"
+            android:paddingTop="15.4dp"
+            android:paddingBottom="12dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

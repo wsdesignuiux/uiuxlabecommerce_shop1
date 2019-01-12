@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="253dp"
+    android:layout_height="193dp"
+    android:layout_marginRight="15.8dp">
+
+
+<com.makeramen.roundedimageview.RoundedImageView
+    android:id="@+id/image"
+    android:layout_width="253dp"
+    android:layout_height="193dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/fashion1"
+    app:riv_corner_radius="10dp"/>
+
+
+    <TextView
+        android:fontFamily="@font/arial_mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_rect"
+        android:text="VIDEO"
+        android:textSize="5.8sp"
+        android:letterSpacing="0.65"
+        android:paddingTop="5.8dp"
+        android:paddingBottom="6.8dp"
+        android:paddingLeft="8.5dp"
+        android:paddingRight="8.5dp"
+        android:layout_marginTop="15.4dp"
+        android:layout_marginLeft="15.4dp"
+        android:textColor="@color/white"/>
+
+
+    <ImageView
+        android:layout_width="53.2dp"
+        android:layout_height="53.2dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/playjj"/>
+
+
+    <TextView
+        android:id="@+id/style_name"
+        android:layout_above="@+id/date"
+        android:fontFamily="@font/sfns_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.4sp"
+        android:layout_marginLeft="15.8dp"
+        android:layout_marginBottom="4.3dp"
+        android:textColor="@color/white"
+        android:text="Fashion"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/arial_mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7.7sp"
+        android:layout_marginBottom="12.5dp"
+        android:layout_marginLeft="14.9dp"
+        android:textColor="@color/white"
+        android:text="15:32 PM, TUESDAY"/>
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15.4dp"
+        android:layout_marginBottom="18.2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/combined_shape_1849"/>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15.4dp"
+        android:layout_marginRight="15.4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.4dp"
+        android:background="@color/white"/>
+    
+</RelativeLayout>
